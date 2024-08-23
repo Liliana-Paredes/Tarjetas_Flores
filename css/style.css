@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+    background-color: rgb(174, 114, 214);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    justify-content: center;
+    gap: 20px;
+    align-items: flex-start;
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 30px;
+    padding: 30px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+.flor-contenido {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid;
+    border-radius: 8px;
+    overflow: hidden;
+    background-color: rgb(204, 198, 198);
+}
+
+.flor-informacion {
+    padding: 15px;
+    background-color: rgb(204, 198, 198);
+    flex-grow: 1; 
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.titulo-flor {
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    color: rgba(127, 33, 235, 0.925);
+    background-color: rgb(204, 198, 198);
+    text-align: center;
+}
+
+.descripcion-flor {
+    background-color: rgb(204, 198, 198);
+    text-align: center;
+}
+
+ul {
+    background-color: rgb(204, 198, 198);
+}
+
+li {
+    background-color: rgb(204, 198, 198);
+}
+
+b {
+    background-color: rgb(204, 198, 198);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
